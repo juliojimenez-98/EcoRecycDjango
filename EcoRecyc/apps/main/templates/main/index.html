@@ -1,0 +1,85 @@
+{% extends 'main/base.html' %}
+
+{% load static %}
+
+{% block contenido %}
+<div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="{% static 'main/img/reciclaje (1).jpg' %}" class="img-fluid">
+        <div class="caption left-align">
+          <h3>EcoRecyc</h3>
+          <h5 class="light grey-text text-lighten-3">Reciclando Ayudamos</h5>
+        </div>
+      </li>
+      <li>
+        <img src="{% static 'main/img/pexels-photo-2505705.jpeg' %}" class="img-fluid"> 
+        <div class="caption left-align">
+          <h3>Servicios de recolección</h3>
+          <h5 class="light grey-text text-lighten-3">Retiramos materiales reciclables en los puntos verdes</h5>
+        </div>
+      </li>
+      <li>
+        <img src="{% static 'main/img/basuraenlaplaya.jpeg' %}" class="img-fluid">
+        <div class="caption right-align">
+          <h3>También puedes reciclar</h3>
+          <h5 class="light grey-text text-lighten-3">Tenemos variados puntos de reciclajes</h5>
+        </div>
+      </li>
+      <li>
+        <img src="{% static 'main/img/EcoRecyc1 (1).jpg' %}" class="img-fluid">
+        <div class="caption center-align">
+        </div>
+      </li>
+    </ul>
+  </div>
+<br>
+<br>
+  
+<div class="row">
+    <h2 class="container">Nuestro trabajo</h2>
+    <br>
+    <hr class="container">
+</div>
+
+<div class="row">
+    <div class="row container">
+        <div class="row col s12 m6">
+            <div class="card bgverde">
+              <div class="card-image">
+                <img src="{% static 'main/img/reciclando.jpg' %}" class="materialboxed" >                
+              </div>
+              <div class="card-content">
+                <p class="white-text">ECORECYC  es una empresa que otorga soluciones integrales al acopio y transporte de materiales no peligrosos, 
+                    con el fin de darle una nueva vida a los materiales reciclables en cuestión. </p>
+              </div>
+            </div>
+        </div>
+        <div class="row col s12 m6">
+          <div class="card bgverde">
+            <div class="card-image">
+              <img src="{% static 'main/img/EcoRecyc.png' %}" class="materialboxed">              
+            </div>
+            <div class="card-content">
+              <p class="white-text">Ayudamos a la reducción del volumen de residuos generados por nuestros
+                colaboradores, con el fin de reducir su impacto ambiental.</p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+            <div class="col s12 m12 container">
+                <div class="card bgverde">
+                  <div class="card-image">
+                    <img src="{% static 'main/img/reciclando2.jpg' %}">              
+                  </div>
+                  <div class="card-content">
+                    <p class="white-text">Completa nuestras misiones diarias y semanales, podrás ganar ganar premios</p>
+                  </div>
+                </div> 
+        </div>
+          
+       
+      </div>
+  </div>
+</div>
+{% endblock contenido %}
